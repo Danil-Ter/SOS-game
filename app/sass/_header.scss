@@ -1,17 +1,22 @@
 .background {
-background: url(../img/header/back.jpg);
+background-image: url(../img/header/back.jpg);
 background-size: cover;
-height: 100vh;
+height: auto;
 }
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
+.header__logo {
+    padding-right: 200px;
+}
+.header__meny {
+    padding-right: 130px;
+}
 .header__meny  a {
     text-decoration: none;
-    font-family: 'Bebas', 'Arial', sans-serif;
+    font-family: 'Bebas Neue', 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 16px;
     text-align: right;
@@ -55,7 +60,7 @@ height: 100vh;
 }
 .header__language {
     list-style: none;
-    font-family: 'Bebas', 'Arial', sans-serif;
+    font-family: 'Bebas Neue', 'Open Sans', sans-serif;
     outline: none;
     background-color: transparent;
     padding: 0;
@@ -67,6 +72,7 @@ height: 100vh;
     text-transform: uppercase;
     color: #FFFFFF;
     position: relative;
+    margin-right: 30px;
 }
 .header__language::before {
     content: ''; 
@@ -79,4 +85,9 @@ height: 100vh;
 }
 .header__language:hover {
     cursor: pointer;
+}
+.header__xbox {
+    border-left: 1px solid #FFFFFF;
+    padding: 0 10px
+    ;
 }

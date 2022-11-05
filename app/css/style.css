@@ -6,9 +6,9 @@
 }
 
 .body {
-  font-family: 'Bebas', 'Arial', sans-serif;
+  font-family: 'Bebas Neue', 'Open Sans', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
 }
 
 .container {
@@ -34,34 +34,39 @@
 }
 
 @font-face {
-  font-family: 'Bebas';
+  font-family: 'Bebas Neue';
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/bebas-neue-v9-latin-regular.woff2") format("woff2"), url("../fonts/bebas-neue-v9-latin-regular.woff") format("woff");
 }
 
 .background {
-  background: url(../img/header/back.jpg);
+  background-image: url(../img/header/back.jpg);
   background-size: cover;
-  height: 100vh;
+  height: auto;
 }
 
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 20px;
 }
 
+.header__logo {
+  padding-right: 200px;
+}
+
+.header__meny {
+  padding-right: 130px;
+}
+
 .header__meny a {
   text-decoration: none;
-  font-family: 'Bebas', 'Arial', sans-serif;
+  font-family: 'Bebas Neue', 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 16px;
   text-align: right;
@@ -111,7 +116,7 @@
 
 .header__language {
   list-style: none;
-  font-family: 'Bebas', 'Arial', sans-serif;
+  font-family: 'Bebas Neue', 'Open Sans', sans-serif;
   outline: none;
   background-color: transparent;
   padding: 0;
@@ -123,6 +128,7 @@
   text-transform: uppercase;
   color: #FFFFFF;
   position: relative;
+  margin-right: 30px;
 }
 
 .header__language::before {
@@ -137,6 +143,239 @@
 
 .header__language:hover {
   cursor: pointer;
+}
+
+.header__xbox {
+  border-left: 1px solid #FFFFFF;
+  padding: 0 10px;
+}
+
+.main {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 310px;
+  padding-bottom: 100px;
+}
+
+.main__title {
+  font-family: 'Bebas Neue', 'Open Sans', sans-serif;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 15px;
+}
+
+.main__text {
+  font-family: 'Bebas Neue', 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.main__button {
+  font-family: 'Bebas Neue', 'Open Sans', sans-serif;
+  cursor: pointer;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  border: #FFB548;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 25px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #1A1917;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 500px;
+}
+
+.main__btn {
+  padding-right: 7px;
+  margin-right: 7px;
+  border-right: 1px solid #1A1917;
+}
+
+.main__story {
+  font-family: 'Bebas Neue', 'Open Sans', sans-serif;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: justify;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.main__story::before {
+  content: '';
+  background-image: url(../img/header/scroll-down.svg);
+  width: 23px;
+  height: 10px;
+  top: 20px;
+  left: 9px;
+  position: absolute;
+}
+
+.about {
+  background-image: url(../img/about/bg-about.jpg);
+  background-size: cover;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-attachment: fixed;
+  height: 960px;
+  padding-top: 200px;
+}
+
+.about__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__left {
+  width: 50%;
+}
+
+.about__question {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.about__title {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.about__text {
+  padding-top: 75px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  width: 364px;
+  margin-left: 170px;
+}
+
+.game {
+  background-image: url(../img/game/Group.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 950px;
+}
+
+.game__question {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.game__title {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.game__text {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  color: #FFB548;
+  padding-left: 45px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.game__text::before {
+  content: '';
+  background-image: url(../img/game/colo.png);
+  width: 16px;
+  height: 17px;
+  left: 10px;
+  top: 5px;
+  position: absolute;
+}
+
+.game__speak {
+  width: 360px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  padding-left: 45px;
+  padding-bottom: 30px;
+}
+
+.game__content {
+  padding-top: 200px;
+  padding-left: 700px;
+}
+
+.system {
+  background-image: url(../img/System/bg-system.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 950px;
 }
 
 /*# sourceMappingURL=style.css.map */
