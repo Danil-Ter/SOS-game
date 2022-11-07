@@ -3,5 +3,63 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    height: 950px;
+    height: 1100px;
+    padding-top: 100px;
+}
+.system__question {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.system__title {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 130px;
+}
+.system__content {
+    background-image: url(../img/System/border.png);
+    width: 575px;
+    height: 473px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+.system__name {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+.system__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.system__box {
+ display: flex;
+ padding-bottom: 60px;
+}
+.system__graphics {
+    padding-top: 20px;
+}
+.system__par {
+    width: 270px;
 }

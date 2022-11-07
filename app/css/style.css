@@ -375,7 +375,369 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  height: 950px;
+  height: 1100px;
+  padding-top: 100px;
+}
+
+.system__question {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.system__title {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 130px;
+}
+
+.system__content {
+  background-image: url(../img/System/border.png);
+  width: 575px;
+  height: 473px;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  padding-top: 30px;
+}
+
+.system__name {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFB548;
+}
+
+.system__text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.system__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.system__graphics {
+  padding-top: 20px;
+}
+
+.system__par {
+  width: 270px;
+}
+
+.quotes {
+  background: #080A0B;
+  background-size: cover;
+  height: 1100px;
+}
+
+.quotes__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 250px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quotes__left {
+  width: 50%;
+}
+
+.quotes__question {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.quotes__title {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.quotes__text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 435px;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+}
+
+.quotes__btn {
+  cursor: pointer;
+  color: #080A0B;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  padding: 15px 20px 15px 15px;
+  position: relative;
+}
+
+.quotes__btn::before {
+  content: '';
+  position: absolute;
+  width: 1.5em;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transform: translateX(0em);
+          transform: translateX(0em);
+}
+
+.quotes__btn:hover {
+  cursor: pointer;
+}
+
+.quotes__btn:hover:before {
+  -webkit-animation: blick 0.6s;
+          animation: blick 0.6s;
+}
+
+@-webkit-keyframes blick {
+  0% {
+    -webkit-transform: translateX(0em);
+            transform: translateX(0em);
+  }
+  1% {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  100% {
+    -webkit-transform: translateX(13em);
+            transform: translateX(13em);
+  }
+}
+
+@keyframes blick {
+  0% {
+    -webkit-transform: translateX(0em);
+            transform: translateX(0em);
+  }
+  1% {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  100% {
+    -webkit-transform: translateX(13em);
+            transform: translateX(13em);
+  }
+}
+
+.quotes__comment {
+  width: 453px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  margin: 30px 0;
+}
+
+.quotes__comment_left {
+  margin-left: 100px;
+}
+
+.quotes__box {
+  padding-right: 30px;
+}
+
+.quotes__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quotes__img {
+  border-radius: 50%;
+  border-right: 5px solid #FFB548;
+  border-bottom: 5px solid #FFB548;
+}
+
+.quotes__name {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #FFB548;
+  cursor: pointer;
+}
+
+.quotes__who {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.quotes__twitter svg path:hover {
+  fill: #00d0f5;
+  opacity: 1;
+}
+
+.quotes__twitter {
+  margin-left: 200px;
+  padding-bottom: 25px;
+}
+
+.quotes__com {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding-top: 25px;
+}
+
+.quotes__date {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding-top: 10px;
+}
+
+.subscribe {
+  height: 800px;
+  background-color: black;
+  padding-top: 250px;
+}
+
+.subscribe__content {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subscribe__question {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.subscribe__title {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subscribe__text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+}
+
+.subscribe__button {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  border: none;
+  padding: 20px 70px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.subscribe__form input {
+  width: 370px;
+  height: 60px;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #555555;
+  border: none;
+  border-radius: 4px;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
