@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>SOS</title>
 </head>
 <body>
@@ -14,12 +15,12 @@
                 <div class="header__logo"><img src="./img/header/logo.png" alt="Error"></div>
                 <nav class="header__meny">
                     <ul>
-                        <li><a href="#">main</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">game features</a></li>
-                        <li><a href="#">System requirements</a></li>
-                        <li><a href="#">quotes</a></li>
-                        <li><a href="#">subscribe </a></li>
+                        <li><a href="#1">main</a></li>
+                        <li><a href="#2">about</a></li>
+                        <li><a href="#3">game features</a></li>
+                        <li><a href="#4">System requirements</a></li>
+                        <li><a href="#5">quotes</a></li>
+                        <li><a href="#6">subscribe </a></li>
                     </ul>
                 </nav>
                 <button class="header__language">eng</button>
@@ -35,22 +36,22 @@
                     </svg>
                 </a>
             </header>
-            <section class="main">
-                <h1 class="main__title">survive at all costs</h1>
-                <p class="main__text">Experience new social battle royale game</p>
-                <button class="main__button" type="button"><p class="main__btn">Buy Now on Steam</p>$14.99</button>
+            <section id="1" class="main">
+                <h1 class="main__title animate__animated animate__pulse">survive at all costs</h1>
+                <p class="main__text animate__animated animate__pulse">Experience new social battle royale game</p>
+                <button class="main__button animate__animated animate__pulse" type="button"><p class="main__btn">Buy Now on Steam</p>$14.99</button>
                 <button class="main__story" type="button">The story</button>
             </section>
         </div>
     </div>
     <main>
-        <section class="about">
+        <section id="2" class="about">
             <div class="container">
                 <div class="about__content">
                     <div class="about__left">
-                        <p class="about__question">What is SOS?</p>
-                        <h2 class="about__title">social battle <br> royale game</h2>
-                        <p class="about__text">Each round, you and 15 other contestants compete to
+                        <p class="about__question wow animate__animated animate__fadeInLeft">What is SOS?</p>
+                        <h2 class="about__title wow animate__animated animate__fadeInLeft">social battle <br> royale game</h2>
+                        <p class="about__text wow animate__animated animate__fadeInLeft">Each round, you and 15 other contestants compete to
                             escape a deadly island filled with monsters. The trick is: three people can survive. Will you run
                             solo or form friendships with others to escape? 
                             <br><br>
@@ -63,20 +64,20 @@
                 </div>
             </div>
         </section>
-        <section class="game">
+        <section id="3" class="game">
             <div class="container">
                 <div class="game__content">
-                    <p class="game__question">What’s so special?</p>
-                    <h2 class="game__title">features</h2>
-                    <p class="game__text">SURVIVE AT ALL COSTS</p>
-                    <p><p class="game__speak">You have 30 minutes to find a relic, signal for extraction, and grab
+                    <p class="game__question wow animate__animated animate__fadeInRight">What’s so special?</p>
+                    <h2 class="game__title wow animate__animated animate__fadeInRight">features</h2>
+                    <p class="game__text wow animate__animated animate__fadeInRight">SURVIVE AT ALL COSTS</p>
+                    <p><p class="game__speak wow animate__animated animate__fadeInRight">You have 30 minutes to find a relic, signal for extraction, and grab
                         one of three spots on the rescue chopper.</p></p>
-                    <p class="game__text">Create allies and enemieS</p>
-                    <p class="game__text">impress the audience</p>
+                    <p class="game__text wow animate__animated animate__fadeInRight">Create allies and enemieS</p>
+                    <p class="game__text wow animate__animated animate__fadeInRight">impress the audience</p>
                 </div>
             </div>
         </section>  
-        <section class="system">
+        <section id="4" class="system">
             <div class="container">
                 <p class="system__question">Can My Computer Run this game?</p>
                 <h2 class="system__title">system requirements</h2>
@@ -108,17 +109,17 @@
                 </div>
             </div>
         </section>
-        <section class="quotes">
+        <section id="5" class="quotes">
             <div class="container">
                 <div class="quotes__content">
-                    <div class="quotes__left">
+                    <div class="quotes__left wow animate__animated animate__fadeInLeft">
                         <p class="quotes__question">Can My Computer Run this game?</p>
                         <h2 class="quotes__title">system requirements</h2>
                         <p class="quotes__text">Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re constantly working on our services to make it better every day and really listen to what our users has to say.</p>
                         <button type="button" class="quotes__btn">read more testimonials</button>
                     </div>
                     <div class="quotes__rigth">
-                        <div class="quotes__comment">
+                        <div class="quotes__comment wow animate__animated animate__fadeInLeft">
                            <div class="quotes__line"> 
                                 <div class="quotes__box">
                                     <img class="quotes__img" src="./img/quetes/ava-1.png" alt="Error">
@@ -136,7 +137,7 @@
                            <p class="quotes__com">“One of my gaming highlights of the year.”</p>
                            <p class="quotes__date">October 18, 2018</p>
                         </div>
-                        <div class="quotes__comment quotes__comment_left">
+                        <div class="quotes__comment quotes__comment_left wow animate__animated animate__fadeInRight">
                             <div class="quotes__line"> 
                                  <div class="quotes__box">
                                      <img class="quotes__img" src="./img/quetes/ava-2.png" alt="Error" width="72px" height="72px">
@@ -154,7 +155,7 @@
                             <p class="quotes__com">“The next big thing in the world of streaming and survival games.” </p>
                             <p class="quotes__date">December 21, 2018</p>
                          </div>
-                         <div class="quotes__comment">
+                         <div class="quotes__comment wow animate__animated animate__fadeInLeft">
                             <div class="quotes__line"> 
                                  <div class="quotes__box">
                                      <img class="quotes__img" src="./img/quetes/ava-3.png" alt="Error" width="72px" height="72px">
@@ -176,7 +177,7 @@
                 </div>
             </div>
         </section>
-        <section class="subscribe">
+        <section id="6" class="subscribe">
             <div class="container">
                 <div class="subscribe__content">
                     <p class="subscribe__question">Want to stay in touch?</p>
@@ -232,8 +233,10 @@
             </div>
             <p class="footer__text"> © 2018 Outpost Games, Inc. All Rights Reserved </p>
         </div>
-
     </footer>
-
 </body>
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 </html>
